@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "esModuleInterop": true, // ES 모듈과 CommonJS 간 호환성 활성화
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "types": ["jest"],
+    "isolatedModules": true,
+    "declaration": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+
